@@ -1,0 +1,84 @@
+#cab
+{
+    position: fixed;
+    z-index: 1;
+    height:40px;
+    width: 98%;
+    background-color: #668284;
+    margin-bottom: 10px
+    }
+
+#nombre {
+    float:left;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+}
+
+#correo{
+    float:right;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+}
+
+#tarea-cargo
+{
+    padding: 1px;
+    }
+
+.cargo
+{
+    font-weight: bolder;
+    }
+
+#empresa
+{
+    height:2px;
+    text-decoration:underline;
+    }
+
+
+a:hover {
+    font-weight: bold;
+}
+
+.der
+{
+    float: left;
+    margin-top: 50px;
+    padding-left:5px;
+    height: auto;
+    width: 99%;
+    background-color: #E3EDD8;
+    }
+
+.izq
+{
+    float: left;
+    margin-top: 50px;
+    margin-right: -90px;
+    height: 200px;
+    width: 200px;
+    width: 10%;
+}
+    
+h3
+{
+    text-decoration: underline;
+    }
+
+td
+{
+    padding: 2px;
+    border: 1px solid #E88741;
+    }
+
+div
+{
+    border-radius: 5px;
+    }
