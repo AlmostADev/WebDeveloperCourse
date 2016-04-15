@@ -26,22 +26,22 @@
     color: #ffffff;
 }
 
-#tarea-cargo
-{
-    padding: 1px;
-    }
-
-.cargo
-{
-    font-weight: bolder;
-    }
-
 #empresa
 {
     height:2px;
     text-decoration:underline;
-    }
+}
 
+#cargo
+{
+    height: 5px;
+    font-weight: bold;
+}
+
+#tarea-cargo
+{
+    padding: 1px;
+}
 
 a:hover {
     font-weight: bold;
@@ -67,6 +67,15 @@ a:hover {
     width: 10%;
 }
     
+#footer
+{
+    height:40px;
+    clear:both;
+    position: relative;
+    background-color: #C1E3E1;
+    text-align: center;   
+}
+    
 h3
 {
     text-decoration: underline;
@@ -81,4 +90,29 @@ td
 div
 {
     border-radius: 5px;
+    }
+
+#contact
+{
+    margin-left:45%;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+}
+
+
+#ncour
+{
+    font-weight:bold;
+    }
+
+
+.job-duration
+{
+    float:right;
+    }
+#heading
+{
+    font-weight:bold;
     }
