@@ -6,14 +6,14 @@
     width: 98%;
     background-color: #668284;
     margin-bottom: 10px
-    }
+}
 
 #nombre {
     float:left;
     margin-left: 20px;
     padding-bottom: 10px;
     font-size: 16px;
-    font-family: Verdana, sans-serif;
+    font-family: Arial, courier;
     color: #ffffff;
 }
 
@@ -22,7 +22,7 @@
     margin-right: 20px;
     padding-bottom: 10px;
     font-size: 16px;
-    font-family: Verdana, sans-serif;
+    font-family: Cursive, sans-serif;
     color: #ffffff;
 }
 
@@ -43,7 +43,8 @@
     padding: 1px;
 }
 
-a:hover {
+a:hover 
+{
     font-weight: bold;
 }
 
@@ -55,7 +56,7 @@ a:hover {
     height: auto;
     width: 99%;
     background-color: #E3EDD8;
-    }
+}
 
 .izq
 {
@@ -70,7 +71,7 @@ a:hover {
 #footer
 {
     height:40px;
-    clear:both;
+    clear: both;
     position: relative;
     background-color: #C1E3E1;
     text-align: center;   
@@ -79,40 +80,41 @@ a:hover {
 h3
 {
     text-decoration: underline;
-    }
-
-td
-{
-    padding: 2px;
-    border: 1px solid #E88741;
-    }
+}
 
 div
 {
     border-radius: 5px;
-    }
-
-#contact
-{
-    margin-left:45%;
-    padding-bottom: 10px;
-    font-size: 16px;
-    font-family: Verdana, sans-serif;
-    color: #ffffff;
+    
 }
-
 
 #ncour
 {
     font-weight:bold;
-    }
+}
 
-
-.job-duration
+#duracion
 {
+    color:red;
     float:right;
-    }
-#heading
+}
+
+hr
 {
-    font-weight:bold;
-    }
+    border: 1px groove grey; height: 0; width: 99,5%;;
+}
+
+body{
+    background-color: grey;
+}
+
+div img {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -300px;
+  margin-left: -125px;
+  border: 5px solid black
+}
